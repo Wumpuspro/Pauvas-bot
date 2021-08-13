@@ -1,0 +1,27 @@
+{
+  "name": "pauvas-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/main.js",
+  "scripts": {
+    "start": "tsc && node ./out/main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wumpuspro/Pauvas-bot.git"
+  },
+  "author": "NorthWestWind, NPG",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Wumpuspro/Pauvas-bot/issues"
+  },
+  "homepage": "https://github.com/Wumpuspro/Pauvas-bot#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
+  }
+}
